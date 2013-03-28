@@ -18,7 +18,8 @@ namespace SharpComAdmin.Handlers
 				Guid.NewGuid().ToString("n"),
 				temporaryFolder
 			));
-			//System.Threading.Thread.Sleep(2000);
+			
+
 		}
 
 		public bool IsReusable { get { return false; } }
