@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="C#" Class="SharpComAdmin.Handlers.image_uploader" %>

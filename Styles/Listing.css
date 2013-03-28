@@ -1,0 +1,39 @@
+﻿.efw_listing_table {font-family:"Segoe UI", Arial; border-collapse: collapse; width:100%; border:none;}
+
+	.efw_listing_header td {border: solid 1px #e4e4e4; padding: 3px 5px; font-size: 14px; font-weight: bold; background: #007ac7; color: #fff; cursor:default;}
+	.efw_listing_header td span.col,
+		.efw_listing_header td img {vertical-align:middle;}
+	.efw_listing_header td img {margin-left:5px; width:10px; height:10px;}
+	
+	.efw_listing_filters td {background: #ffdba1; border: solid 1px #e4e4e4; padding: 2px 5px;}
+	.efw_listing_filters td input {border: solid 1px #888; font-size:12px;}
+	.efw_listing_filters td input.filter {border: none;}
+	.efw_listing_filters input.text,
+		.efw_listing_filters input.datepicker,
+		.efw_listing_filters select.select {width: 98%;}
+		
+	.efw_listing_record td {border: solid 1px #e4e4e4; font-size: 12px; padding: 3px 5px; background: #fafafa; color: #6d8093;}
+	.efw_listing_record_sel td {border: solid 1px #e4e4e4; font-size: 12px; padding: 3px 5px; background: #cacaca; color: #6d8093;}
+	.efw_listing_record td span.action,
+		.efw_listing_record_sel td span.action {color: #96a400; font-weight: bold; font-size: 14px; margin-left: 5px; cursor: pointer;}
+	.efw_listing_record td span.action:hover,
+		.efw_listing_record_sel td span.action:hover {color: #000;}
+	.efw_listing_record td span.col_action,
+		.efw_listing_record_sel td span.col_action {font-weight: bold; cursor: pointer;}
+	.efw_listing_record td span.col_action:hover,
+		.efw_listing_record_sel td span.col_action:hover {text-decoration:underline;}
+
+	.efw_listing_filters td.efw_listing_filters_action,
+		tr.efw_listing_record td.efw_listing_record_action,
+		tr.efw_listing_record_sel td.efw_listing_record_action {text-align: center; white-space: nowrap; word-wrap: break-word;}
+	.efw_listing_footer td {border: solid 1px #e4e4e4; background: #ffdba1; padding: 3px 5px; font-size:12px;}
+	.efw_listing_footer div.page_navigation span.prev_page, 
+		.efw_listing_footer div.page_navigation span.next_page {font-size: 12px; font-weight: bolder; margin: 0 5px; cursor: pointer;}
+	.efw_listing_footer div.records_count {float: left; display: inline; vertical-align: middle; font-size: 12px; font-weight: bold; color: #747474; line-height: 16px;}
+	.efw_listing_footer div.page_navigation {float: right; display: inline; vertical-align: middle;}
+	.efw_listing_footer div.page_navigation span,
+		.efw_listing_footer div.page_navigation strong,
+		.efw_listing_footer div.page_navigation select {vertical-align: middle;}
+	.efw_listing_footer div.page_navigation select {font-size: 12px;}
+	.efw_listing_footer div.page_navigation span.total_pages {font-weight: bold;}
+	.efw_listing_footer div.page_navigation span {color: #393939;}
